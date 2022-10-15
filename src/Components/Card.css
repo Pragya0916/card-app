@@ -1,0 +1,32 @@
+.cards{
+    transition-duration: .2s;
+    position: relative;
+    transition-property: top, box-shadow;
+    top: 0;
+    cursor: pointer;
+}
+
+.cards:hover{
+    top: -4px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+ }
+
+.subHeading{
+text-align: center;
+text-transform: capitalize;
+font-size: 1vw;
+}
+
+.searchInput{
+    text-align: center;
+    position: relative;
+    left: 25%;
+    border: none;
+    border-bottom: 2px solid rgb(149, 148, 148);
+    box-shadow: 0 .2rem .7rem rgba(0,0,0,.3);
+  }

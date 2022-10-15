@@ -1,0 +1,13 @@
+.modal_box{
+    height: 100%;
+    width: 100%;
+   position: absolute;
+   top: 8%;
+}
+
+.close_btn{
+    width: 5%;
+    font-size: large;
+    position: relative;
+    left: 95%;
+}
